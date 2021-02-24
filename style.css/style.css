@@ -1,0 +1,725 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*start*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+}
+
+button:hover {
+  background: #c2a530;
+  transition: 0.3s;
+}
+
+.header {
+  height: 100vh;
+}
+
+.header_banner {
+  background-image: url(img/bgc.png) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1110px;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  top: 20px;
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+  position: relative;
+}
+
+.header_nav li {
+  border: 1px solid white;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 12px;
+}
+
+.header_nav a {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 150%;
+
+  height: 46px;
+  width: 270px;
+  padding: 0 104px 0;
+}
+
+.header_nav li:nth-child(1) {
+  border-left: none;
+}
+
+.header_nav li:nth-child(4) {
+  border-right: none;
+}
+
+
+.header_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 375px;
+}
+
+.button {
+  width: 203px;
+  height: 50px;
+  background: #99862A;
+  cursor: pointer;
+  border: none;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 15px;
+}
+
+.button a {
+  padding-top: 15px;
+  display: block;
+
+  text-align: center;
+}
+
+.buttom:hover {
+  background: #c2a723;
+  color: black;
+}
+
+/*block2*/
+
+.banner_wine {
+  background: #282828;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.banner_wine_info {
+  border: 3px solid #C4C4C4;
+  width: auto;
+  height: auto;
+}
+
+.banner_wine_info_heading {
+  color: #FFFFFF;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.line_before_heading {
+  border: 1px solid #FFFFFF;
+  width: 160px;
+  margin: 20px auto 20px;
+}
+
+.banner_wine_info_text {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+
+  color: #FFFFFF;
+  width: auto;
+  height: 192px;
+  margin: 40px 186px;
+}
+
+.banner_icon {
+
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/*box3*/
+
+.menu {
+  width: auto;
+  height: 1038px;
+  background: #E6E3C4;
+  padding-top: 100px;
+}
+
+.menu_container {
+  height: 878px;
+  border-bottom: 1px solid #998431;
+  border-top: 1px solid #998431;
+  display: flex;
+}
+
+.menu_text {
+  color: black;
+  padding-right: 122px;
+}
+
+.menu_text_collection {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 60px;
+}
+
+.menu_text_header {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  margin-top: 30px;
+}
+
+.menu_line {
+  width: 160px;
+  border: 1px solid #282828;
+  margin-top: 30px;
+}
+
+.menu_text_description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 30px;
+
+  width: 445px;
+  height: 84px;
+}
+
+.menu_table {
+  width: 445px;
+  margin-top: 30px;
+}
+
+.menu_table_year_last {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 26px 24px 26px 19px;
+  border-right: 1px solid #282828;
+
+  width: 32px;
+  height: 21px;
+}
+
+.menu_table_name_last {
+  width: 303px;
+  height: 27px;
+  padding-top: 5px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+
+.menu_table_year {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 26px 24px 26px 19px;
+  border-right: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+
+  width: 32px;
+  height: 21px;
+}
+
+.menu_table_name {
+  width: 303px;
+  height: 27px;
+  padding-top: 5px;
+
+  border-bottom: 1px solid #282828;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.menu_table_wine {
+  width: 271px;
+  height: auto;
+
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 15px;
+}
+
+
+.menu_button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #998431;
+  color: #FFFFFF;
+
+  padding: 15px 15px;
+  width: 254px;
+  height: 50px;
+
+  margin-top: 30px;
+}
+
+.menu_img {
+  height: auto;
+  width: auto;
+
+}
+
+.menu_img .img_one {
+  padding-top: 60px;
+}
+
+.menu_img .img_two {
+  padding: 30px 27px 0 0;
+}
+
+/*box4*/
+
+.block_form {
+  width: auto;
+  height: 767px;
+  background: #282828;
+  position: relative;
+
+  padding-top: 129px;
+}
+
+.block_form_box {
+
+  height: 538px;
+  border: 3px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+.block_form_img_first {
+  position: absolute;
+  margin: -65px;
+  left: 0;
+  margin-left: 94px;
+}
+
+.block_form_img_second {
+  position: absolute;
+  margin: -65px;
+  right: 0;
+  margin-right: 66px;
+}
+
+.block_form_third {
+  width: 390px;
+  height: 74px;
+  position: absolute;
+  margin-top: -38px;
+  margin-left: 431px;
+  padding: 10px 50px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  background: #282828;
+  color: #FFFFFF;
+}
+
+.block_form_line {
+  width: 118px;
+  margin: 65px auto;
+  border: 1px solid #FFFFFF
+}
+
+.block_form_text {
+  width: 539px;
+  height: 72px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.block_form_text span {
+  margin-left: 170px;
+}
+
+.block_form_container {
+  width: 540px;
+  height: 200px;
+  margin: 81px auto;
+
+}
+
+.block_form_inputs {
+  height: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block_form_inputs input {
+  color: white;
+  background: #282828;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+
+  min-width: 255px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+.block_form_inputs_adress {
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.block_form_inputs_adress input {
+  color: white;
+  background: #282828;
+  height: 30px;
+  min-width: 536px;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+.block_form_sign_up {
+  width: 541px;
+  height: 50px;
+  margin-top: 50px;
+
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  border: 1px solid #FFFFFF;
+  background: #282828;
+}
+
+/*5*/
+
+.block_footer {
+  height: 220px;
+  background: #998431;
+  padding-top: 50px;
+}
+
+.footer_box {
+  height: 121px;
+  border: 1px solid #FFFFFF;
+  border-left: none;
+  border-right: none;
+}
+
+.footer_box_container {
+  width: 920px;
+  margin: auto;
+}
+
+.footer_box_nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 19px 0 20px;
+}
+
+.footer_box_nav li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.footer_box_nav_end {
+  display: flex;
+  /* justify-content: space-between; */
+  border-top: 1px solid white;
+}
+
+.footer_box_nav_end li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  padding-top: 18px;
+  padding-bottom: 16px;
+
+  margin-right: -70px;
+  margin-left: 31px;
+  padding-right: 47px;
+  padding-left: 87px;
+
+  border-right: 1px solid white;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer_box_link a {
+  padding: 12px 16px 12px 14px;
+}
+
+
+
+.footer_box__link_end a {
+  border-right: none;
+}
+
+/* Adaptiv*/
+ 
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .container {}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+  .banner_wine_info_text {
+    color: red;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .container {}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .container {}
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+  .container {}
+}
